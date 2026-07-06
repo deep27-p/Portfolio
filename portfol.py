@@ -44,15 +44,14 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-# 3. Sidebar Navigation & Contact
+# 3. Sidebar Navigation & Contact Info
 with st.sidebar:
-    st.image("https://via.placeholder.com/150", caption="Deepak Baskar N") # Replace with your actual image URL or local path
     st.markdown("### 📬 Contact Info")
-    st.markdown("- **Email:** baskardeepak27@gmail.com")[cite: 1]
-    st.markdown("- **Phone:** +91 9965463281")[cite: 1]
-    st.markdown("- **Location:** Anaimalai, Tamil Nadu, India")[cite: 1]
+    st.markdown("- **Email:** baskardeepak27@gmail.com")
+    st.markdown("- **Phone:** +91 9965463281")
+    st.markdown("- **Location:** Anaimalai, Tamil Nadu, India")
     st.markdown("---")
-    st.markdown("[🔗 LinkedIn](https://linkedin.com) | [💻 GitHub](https://github.com)")[cite: 1]
+    st.markdown("[🔗 LinkedIn](https://linkedin.com) | [💻 GitHub](https://github.com)")
     
     st.markdown("---")
     navigation = st.radio(
@@ -66,13 +65,13 @@ if navigation == "About Me":
     st.markdown('<div class="subtitle">AI-Driven Cloud & Data Solutions Engineer</div>', unsafe_allow_html=True)
     
     st.markdown('<div class="section-header">🚀 Profile Summary</div>', unsafe_allow_html=True)
-    st.write(
-        "Technology professional with experience in Salesforce CRM Cloud, API testing, and application support. "[cite: 1]
-        "Skilled in Postman, Salesforce Health Cloud, and Lightning Web Components (LWC). "[cite: 1]
-        "Possess basic knowledge of ERPNext Inventory, Sales, and HR modules. "[cite: 1]
-        "Certified in Data Science (GUVI-IIT Madras) with proficiency in Python, SQL, and Power BI. "[cite: 1]
-        "Passionate about Software Testing, Technical Support, DSPy, Prompt Engineering, and AI-driven solutions."[cite: 1]
-    )
+    st.write("""
+    Technology professional with experience in Salesforce CRM Cloud, API testing, and application support. 
+    Skilled in Postman, Salesforce Health Cloud, and Lightning Web Components (LWC). 
+    Possess basic knowledge of ERPNext Inventory, Sales, and HR modules. 
+    Certified in Data Science (GUVI-IIT Madras) with proficiency in Python, SQL, and Power BI. 
+    Passionate about Software Testing, Technical Support, DSPy, Prompt Engineering, and AI-driven solutions.
+    """)
 
 elif navigation == "Technical Skills":
     st.markdown('<div class="section-header">🛠️ Technical Toolkit</div>', unsafe_allow_html=True)
@@ -81,95 +80,95 @@ elif navigation == "Technical Skills":
     
     with col1:
         st.markdown("### **Cloud & Business Applications**")
-        st.markdown("- **CRM:** Salesforce CRM Cloud, Salesforce Health Cloud")[cite: 1]
-        st.markdown("- **Frontend:** Lightning Web Components (LWC)")[cite: 1]
-        st.markdown("- **ERP:** ERPNext (Functional Support, Workflow Configuration, Module Support)")[cite: 1]
-        st.markdown("- **API Testing:** Postman")[cite: 1]
+        st.markdown("- **CRM:** Salesforce CRM Cloud, Salesforce Health Cloud")
+        st.markdown("- **Frontend Frameworks:** Lightning Web Components (LWC)")
+        st.markdown("- **ERP Platforms:** ERPNext (Functional Support, Workflow Configuration, Module Support)")
+        st.markdown("- **API Testing:** Postman")
         
         st.markdown("### **Programming & Databases**")
-        st.markdown("- **Languages:** Python")[cite: 1]
-        st.markdown("- **Databases:** SQL, MySQL")[cite: 1]
+        st.markdown("- **Languages:** Python")
+        st.markdown("- **Databases:** SQL, MySQL")
 
     with col2:
         st.markdown("### **AI / ML & Deep Learning**")
-        st.markdown("- **Frameworks:** Scikit-learn, TensorFlow, PyTorch")[cite: 1]
-        st.markdown("- **Domains:** NLP, Computer Vision")[cite: 1]
-        st.markdown("- **Advanced AI:** DSPy, Prompt Engineering")[cite: 1]
+        st.markdown("- **Frameworks:** Scikit-learn, TensorFlow, PyTorch")
+        st.markdown("- **Core Domains:** NLP, Computer Vision")
+        st.markdown("- **Generative AI Tools:** DSPy, Prompt Engineering")
         
         st.markdown("### **Data Analysis & Deployment**")
-        st.markdown("- **Analysis:** Pandas, NumPy, Matplotlib, Seaborn, Plotly, Power BI, Excel")[cite: 1]
-        st.markdown("- **Deployment/Tools:** Streamlit, AWS, VS Code, GitHub")[cite: 1]
+        st.markdown("- **Analytics:** Pandas, NumPy, Matplotlib, Seaborn, Plotly, Power BI, Excel")
+        st.markdown("- **Deployment & Dev Tools:** Streamlit, AWS, VS Code, GitHub")
 
 elif navigation == "Experience":
     st.markdown('<div class="section-header">💼 Professional Experience</div>', unsafe_allow_html=True)
     
-    # Job 1
+    # Position 1
     st.markdown('<div class="job-title">Developer Internship</div>', unsafe_allow_html=True)
     st.markdown('<div class="company-info">Conuxt | 05/2026 - Present | Pollachi</div>', unsafe_allow_html=True)
-    st.markdown(
-        "- Worked with Salesforce CRM Cloud, gaining experience in CRM workflows, cloud solutions, and business processes.\n"[cite: 1]
-        "- Performed API testing and validation using Postman, ensuring successful system integrations and data flow.\n"[cite: 1]
-        "- Explored Salesforce Health Cloud and healthcare CRM functionalities, including patient-centric workflows.\n"[cite: 1]
-        "- Developed technical skills in Lightning Web Components (LWC), DSPy, and Prompt Engineering for AI-powered application development."[cite: 1]
-    )
+    st.markdown("""
+    - Worked with Salesforce CRM Cloud, gaining experience in CRM workflows, cloud solutions, and business processes.
+    - Performed API testing and validation using Postman, ensuring successful system integrations and data flow.
+    - Explored Salesforce Health Cloud and healthcare CRM functionalities, including patient-centric workflows.
+    - Developed technical skills in Lightning Web Components (LWC), DSPy, and Prompt Engineering for AI-powered application development.
+    """)
     st.markdown(" ")
 
-    # Job 2
+    # Position 2
     st.markdown('<div class="job-title">Junior Full Stack Developer (ERPNext Functional Support)</div>', unsafe_allow_html=True)
     st.markdown('<div class="company-info">Makto Technology | 01/2026 - 02/2026 | Coimbatore</div>', unsafe_allow_html=True)
-    st.markdown(
-        "- Gathered client requirements and configured workflows for ERPNext Yarn and Fabric modules.\n"[cite: 1]
-        "- Supported system setup and provided backend support including data management and issue troubleshooting.\n"[cite: 1]
-        "- Coordinated with stakeholders to resolve issues and ensure smooth implementation."[cite: 1]
-    )
+    st.markdown("""
+    - Gathered client requirements and configured workflows for ERPNext Yarn and Fabric modules.
+    - Supported system setup and provided backend support including data management and issue troubleshooting.
+    - Coordinated with stakeholders to resolve issues and ensure smooth implementation.
+    """)
     st.markdown(" ")
 
-    # Job 3
+    # Position 3
     st.markdown('<div class="job-title">Medical Billing Specialist</div>', unsafe_allow_html=True)
     st.markdown('<div class="company-info">RND Softech Pvt. Ltd | 05/2024 - 06/2025 | Coimbatore</div>', unsafe_allow_html=True)
-    st.markdown(
-        "- Verified eligibility and processed DME machine and supply resupply requests.\n"[cite: 1]
-        "- Checked resupply quantities, monthly supply limits, and patient notes for any changes.\n"[cite: 1]
-        "- Worked as a quality checker, maintaining high process accuracy through diligent checks."[cite: 1]
-    )
+    st.markdown("""
+    - Verified eligibility and processed DME machine and supply resupply requests.
+    - Checked resupply quantities, monthly supply limits, and patient notes for any changes.
+    - Worked as a quality checker, maintaining high process accuracy through diligent checks.
+    """)
 
 elif navigation == "Projects":
     st.markdown('<div class="section-header">🔬 Engineering Projects</div>', unsafe_allow_html=True)
     
     # Project 1
     with st.expander("🤖 Hyperlocal News Anomaly Detection & Source Attribution (AWS)", expanded=True):
-        st.markdown("**Technologies:** BERT, RoBERTa, NLP, Isolation Forest, Autoencoder, Streamlit, AWS")[cite: 1]
-        st.markdown(
-            "- Troubleshot AWS deployment issues including service configuration, application access errors, and runtime failures.\n"[cite: 1]
-            "- Monitored application logs and resolved data processing and connectivity issues to maintain system stability.\n"[cite: 1]
-            "- Developed an NLP-driven solution to detect abnormal news patterns and identify source credibility.\n"[cite: 1]
-            "- Implemented a real-time dashboard for monitoring anomalies and regional content behavior using machine learning models."[cite: 1]
-        )
+        st.markdown("**Technologies Used:** BERT, RoBERTa, NLP, Isolation Forest, Autoencoder, Streamlit, AWS")
+        st.markdown("""
+        - Troubleshot AWS deployment issues including service configuration, application access errors, and runtime failures.
+        - Monitored application logs and resolved data processing and connectivity issues to maintain system stability.
+        - Developed an NLP-driven solution to detect abnormal news patterns and identify source credibility.
+        - Implemented a real-time dashboard for monitoring anomalies and regional content behavior using machine learning models.
+        """)
         
     # Project 2
     with st.expander("📊 Content Monetization Modeler", expanded=True):
-        st.markdown("**Technologies:** Scikit-learn, Regression Models, EDA, Feature Engineering, Data Visualization, Streamlit")[cite: 1]
-        st.markdown(
-            "- Resolved environment and dependency issues during Python library installation and Streamlit deployment.\n"[cite: 1]
-            "- Diagnosed data loading and application runtime errors, ensuring smooth execution of the prediction interface.\n"[cite: 1]
-            "- Built a regression-based system to estimate video revenue using engagement and performance metrics.\n"[cite: 1]
-            "- Developed an interactive Streamlit application allowing users to input parameters and view revenue predictions."[cite: 1]
-        )
+        st.markdown("**Technologies Used:** Scikit-learn, Regression Models, EDA, Feature Engineering, Data Visualization, Streamlit")
+        st.markdown("""
+        - Resolved environment and dependency issues during Python library installation and Streamlit deployment.
+        - Diagnosed data loading and application runtime errors, ensuring smooth execution of the prediction interface.
+        - Built a regression-based system to estimate video revenue using engagement and performance metrics.
+        - Developed an interactive Streamlit application allowing users to input parameters and view revenue predictions.
+        """)
 
 elif navigation == "Education & Certifications":
     st.markdown('<div class="section-header">🎓 Education</div>', unsafe_allow_html=True)
     
-    st.markdown("**Advanced Programming Professional & Master Data Science**")[cite: 1]
-    st.caption("GUVI - IIT Madras | 06/2025 - 10/2025 | Chennai")[cite: 1]
+    st.markdown("**Advanced Programming Professional & Master Data Science**")
+    st.caption("GUVI - IIT Madras | 06/2025 - 10/2025 | Chennai")
     st.markdown(" ")
-    st.markdown("**Bachelor of Computer Applications (BCA)**")[cite: 1]
-    st.caption("Nallamuthu Gounder Mahalingam College | 07/2021 - 05/2024 | Pollachi")[cite: 1]
+    st.markdown("**Bachelor of Computer Applications (BCA)**")
+    st.caption("Nallamuthu Gounder Mahalingam College | 07/2021 - 05/2024 | Pollachi")
     
     st.markdown('<div class="section-header">📜 Certifications</div>', unsafe_allow_html=True)
     col1, col2, col3 = st.columns(3)
     with col1:
-        st.info("🐍 **Python**\n\nIssued by GUVI")[cite: 1]
+        st.info("🐍 **Python**\n\nIssued by GUVI")
     with col2:
-        st.info("🛢️ **MySQL**\n\nIssued by GUVI")[cite: 1]
+        st.info("🛢️ **MySQL**\n\nIssued by GUVI")
     with col3:
-        st.info("📊 **Power BI**\n\nIssued by Simplilearn")[cite: 1]
+        st.info("📊 **Power BI**\n\nIssued by Simplilearn")
